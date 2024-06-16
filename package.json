@@ -1,0 +1,39 @@
+{
+  "name": "theme-blackpink",
+  "displayName": "BlackPink Theme (Blink)",
+  "description": "Blackpink theme",
+  "version": "0.0.2",
+  "publisher": "abenavidesh",
+  "icon": "logo.png",
+  "author": "Antonio Benavides[@antoniobh]",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abenavidesh/vs-blackpink-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abenavidesh/vs-blackpink-theme.git/issues"
+  },
+  "keywords": [
+    "theme",
+    "blackpink",
+    "rose",
+    "jisso",
+    "lisa",
+    "jennie"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Black Pink Rose",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-pink-rose.json"
+      }
+    ]
+  }
+}
